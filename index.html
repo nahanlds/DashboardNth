@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styleGeral.css">
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="conteiner">
+
+            <!-- Sidbar Esquerdo-->
+        <aside >
+            <div class="toggle">
+                <div class="logo">
+                    <img src="./favicon-32x32.png" alt="logo do Dashboard">
+                </div>
+                <h2>Nth <span class="primary">Dashboard</span></h2>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="ativo">
+                    <span class="material-symbols-outlined">
+                        show_chart
+                    </span>
+                    <h3>Analistics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <h3>Tickets</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        inventory
+                    </span>
+                    <h3>Sale list</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        report
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+            <!--main-->
+        <main>
+                <!--Analistics-->
+            <h1>Analistics</h1>
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>total</h3>
+                            <h1>10</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle class="total" cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>100%</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Site visitados</h3>
+                            <h1>6</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle class="site" cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>60%</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Mobiles</h3>
+                            <h1>4</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>40%</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!--fim Analistics-->
+
+            <!-- New Users-->
+
+            <div class="new-users">
+                <h2>Users</h2>
+                <div class="list-users">
+                    <div class="user">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <h2>João</h2>
+                        <p>22 min atrás</p>
+                    </div>
+
+                    <div class="user">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <h2>Maria</h2>
+                        <p>13 min atrás</p>
+                    </div>
+
+                    <div class="user">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <h2>Julia</h2>
+                        <p>56 min atrás</p>
+                    </div>
+
+                    <div class="user">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <h2>Gustavo</h2>
+                        <p>2 Horas atrás</p>
+                    </div>
+                </div>
+            </div>
+            <!-- fim New Users-->
+
+            <!-- Ordens recentes-->
+
+            <div class="recents-orders">
+                <h2>Ordens Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Setor</th>
+                            <th>Numero do Setor</th>
+                            <th>Status do Setor no Geral</th>
+                            <th>Status Atual</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <a href="#">ver mais</a>
+            </div>
+            <!--fim ordens reccentes-->
+        </main>
+        <!--fim do Main-->
+
+        <!-- Sidebar direito-->
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-symbols-outlined active">
+                        light_mode
+                    </span>
+
+                    <span class="material-symbols-outlined">
+                        dark_mode
+                    </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>olá, <b>Nathan</b></p>
+                        <small class="text-muted">Admim</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./mini-astronaut.jpg" alt="foto de perfil">
+                    </div>
+                </div>
+            </div>
+           
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="./mini-astronaut.jpg" alt="logo">
+                    <h2>Nth dashboard</h2>
+                    <p>Dev Web jr</p>
+                </div>
+            </div>
+            <div class="remaiders">
+                <div class="header">
+                    <h2>Remainders</h2>
+                    <span class="material-symbols-outlined">
+                        notifications
+                    </span>
+                </div>
+
+                <div class="notications">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            volume_up
+                        </span>
+                    </div>
+
+                    <div class="content">
+                        <h3>Works</h3>
+                        <small class="text-muted">09:00 AM 13:00 PM</small>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        more_vert
+                    </span>
+                </div>
+
+                <div class="notications add-reminder">
+                    <div class="add">
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                    </div>
+                    <h3>Add remaiders</h3>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- fim Sidebar direito-->
+
+
+
+    </div>
+
+    <script src="./users.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
