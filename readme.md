@@ -7,7 +7,7 @@
     <li>JAVASCRIPT</li>
 </ul>
 
-![](../dashboard%20nth.png)
+![](./dashboard%20nth.png)
 
 <h2>Em Desenvolvimento</h2>
 <ul>
