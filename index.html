@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="./styleGeral.css">
-    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/styleGeral.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/secaoD.css">
+    <link rel="stylesheet" href="./style/sidebarE.css">
+
     <title>Dashboard</title>
 </head>
 <body>
     <div class="conteiner">
-
             <!-- Sidbar Esquerdo-->
         <aside >
             <div class="toggle">
                 <div class="logo">
-                    <img src="./favicon-32x32.png" alt="logo do Dashboard">
+                    <img src="./imgs/favicon-32x32.png" alt="logo do Dashboard">
                 </div>
                 <h2>Nth <span class="primary">Dashboard</span></h2>
                 <div class="close" id="close-btn">
@@ -28,13 +32,13 @@
             </div>
 
             <div class="sidebar">
-                <a href="#">
+                <a href="#" role="link">
                     <span class="material-symbols-outlined">
                         dashboard
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#">
+                <a href="#" id="usuarios">
                     <span class="material-symbols-outlined">
                         person
                     </span>
@@ -155,7 +159,7 @@
             <!-- New Users-->
 
             <div class="new-users">
-                <h2>Users</h2>
+                <h2>Funcionarios</h2>
                 <div class="list-users">
                     <div class="user">
                         <span class="material-symbols-outlined">
@@ -240,7 +244,7 @@
                         <small class="text-muted">Admim</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="./mini-astronaut.jpg" alt="foto de perfil">
+                        <img src="./imgs/mini-astronaut.jpg" alt="foto de perfil">
                     </div>
                 </div>
             </div>
@@ -248,7 +252,7 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="./mini-astronaut.jpg" alt="logo">
+                    <img src="./imgs/mini-astronaut.jpg" alt="logo">
                     <h2>Nth dashboard</h2>
                     <p>Dev Web jr</p>
                 </div>
@@ -295,7 +299,7 @@
 
     </div>
 
-    <script src="./users.js"></script>
-    <script src="./index.js"></script>
+    <script src="./js/users.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
