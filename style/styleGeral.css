@@ -208,7 +208,7 @@ b{
         margin-left: 0.3rem;
     }
     aside .sidebar {
-        height: 84vh;
+        height: 100%;
     }
 
     aside .toggle h2 {
