@@ -6,22 +6,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imgs/favicon-16x16.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="./style/styleGeral.css">
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="./style/secaoD.css">
-    <link rel="stylesheet" href="./style/sidebarE.css">
+    <link rel="stylesheet" href="../style/styleGeral.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/secaoD.css">
+    <link rel="stylesheet" href="../style/sidebarE.css">
+
+    <link rel="stylesheet" href="../style/dashboard.css">
 
     <title>Dashboard</title>
 </head>
 <body>
+
     <div class="conteiner">
-            <!-- Sidbar Esquerdo-->
         <aside >
             <div class="toggle">
                 <div class="logo">
-                    <img src="./imgs/favicon-32x32.png" alt="logo do Dashboard">
+                    <img src="../imgs/favicon-32x32.png" alt="logo do Dashboard">
                 </div>
                 <h2>Nth <span class="primary">Dashboard</span></h2>
                 <div class="close" id="close-btn">
@@ -30,9 +32,9 @@
                     </span>
                 </div>
             </div>
-
+    
             <div class="sidebar">
-                <a href="./pages/dashboard.html" role="link">
+                <a href="./dashboard.html" role="link" class="ativo">
                     <span class="material-symbols-outlined">
                         dashboard
                     </span>
@@ -50,7 +52,7 @@
                     </span>
                     <h3>History</h3>
                 </a>
-                <a href="./index.html" class="ativo">
+                <a href="../index.html">
                     <span class="material-symbols-outlined">
                         show_chart
                     </span>
@@ -94,134 +96,101 @@
                 </a>
             </div>
         </aside>
-
-            <!--main-->
+    
         <main>
-                <!--Analistics-->
-            <h1>Analistics</h1>
-            <div class="analyse">
-                <div class="sales">
-                    <div class="status">
-                        <div class="info">
-                            <h3>total</h3>
-                            <h1>10</h1>
-                        </div>
-                        <div class="progress">
-                            <svg>
-                                <circle class="total" cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>100%</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="visits">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Site visitados</h3>
-                            <h1>6</h1>
-                        </div>
-                        <div class="progress">
-                            <svg>
-                                <circle class="site" cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>60%</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Mobiles</h3>
-                            <h1>4</h1>
-                        </div>
-                        <div class="progress">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>40%</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-            <!--fim Analistics-->
-
+            <h1>Dashboard</h1>
             <!-- New Users-->
-
             <div class="new-users">
-                <h2>Funcionarios</h2>
-                <div class="list-users">
-                    <div class="user">
-                        <span class="material-symbols-outlined">
-                            person
-                        </span>
-                        <h2>João</h2>
-                        <p>22 min atrás</p>
+                <div class="list">
+                    <div class="funcionario">
+                        <div class="sales">
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            <h2>João</h2>
+                            <p>22 min atrás</p>
+                        </div>
+                        <div>
+                            <h2>Tarefas</h2>
+                            <p>Mobile</p>
+                        </div>
+                        <div>
+                            <h2>Status</h2>
+                            
+                        </div>
                     </div>
-
-                    <div class="user">
-                        <span class="material-symbols-outlined">
-                            person
-                        </span>
-                        <h2>Maria</h2>
-                        <p>13 min atrás</p>
+    
+                    <div class="funcionario">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            <h2>Maria</h2>
+                            <p>13 min atrás</p>
+                        </div>
+                        <div>
+                            <h2>Tarefas</h2>
+                            <p>Web</p>
+                        </div>
+                        <div>
+                            <h2>Status</h2>
+                            
+                        </div>
                     </div>
+    
+                    <div class="funcionario">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            <h2>Julia</h2>
+                            <p>56 min atrás</p>
+                        </div>
+                        <div>
+                            <h2>Tarefas</h2>
+                            <p>UI UX</p>
+                        </div>
+                        <div>
+                            <h2>Status</h2>
 
-                    <div class="user">
-                        <span class="material-symbols-outlined">
-                            person
-                        </span>
-                        <h2>Julia</h2>
-                        <p>56 min atrás</p>
+                        </div>
                     </div>
-
-                    <div class="user">
-                        <span class="material-symbols-outlined">
-                            person
-                        </span>
-                        <h2>Gustavo</h2>
-                        <p>2 Horas atrás</p>
+    
+                    <div class="funcionario">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            <h2>Gustavo</h2>
+                            <p>2 Horas atrás</p>
+                        </div>
+                        <div>
+                            <h2>Tarefas</h2>
+                            <p>Analista Geral</p>
+                        </div>
+                        <div>
+                            <h2>Status</h2>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- fim New Users-->
-
+    
             <!-- Ordens recentes-->
-
-            <div class="recents-orders">
-                <h2>Ordens Recentes</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Setor</th>
-                            <th>Numero do Setor</th>
-                            <th>Status do Setor no Geral</th>
-                            <th>Status Atual</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    </tbody>
-                </table>
-                <a href="#">ver mais</a>
+    
+            <div class="resultados">
+                <h2>Resultados dos ultimos meses</h2>
+                <canvas id="chart" class="chart" width="850px"></canvas>
             </div>
-            <!--fim ordens reccentes-->
+            <div class="resultados2">
+                <h2>Resultados da Empresa</h2>
+                <canvas id="chart2" class="chart2" width="850px" height="850px"></canvas>
+            </div>
         </main>
-        <!--fim do Main-->
-
-        <!-- Sidebar direito-->
-
+    
+    
+    
         <div class="right-section">
             <div class="nav">
                 <button id="menu-btn">
@@ -233,7 +202,7 @@
                     <span class="material-symbols-outlined active">
                         light_mode
                     </span>
-
+    
                     <span class="material-symbols-outlined">
                         dark_mode
                     </span>
@@ -244,15 +213,15 @@
                         <small class="text-muted">Admim</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="./imgs/mini-astronaut.jpg" alt="foto de perfil">
+                        <img src="../imgs/mini-astronaut.jpg" alt="foto de perfil">
                     </div>
                 </div>
             </div>
            
-
+    
             <div class="user-profile">
                 <div class="logo">
-                    <img src="./imgs/mini-astronaut.jpg" alt="logo">
+                    <img src="../imgs/mini-astronaut.jpg" alt="logo">
                 </div>
                 <h2>Nth dashboard</h2>
                 <p>Dev Web jr</p>
@@ -264,14 +233,14 @@
                         notifications
                     </span>
                 </div>
-
+    
                 <div class="notications">
                     <div class="icon">
                         <span class="material-symbols-outlined">
                             volume_up
                         </span>
                     </div>
-
+    
                     <div class="content">
                         <h3>Works</h3>
                         <small class="text-muted">09:00 AM 13:00 PM</small>
@@ -280,7 +249,7 @@
                         more_vert
                     </span>
                 </div>
-
+    
                 <div class="notications add-reminder">
                     <div class="add">
                         <span class="material-symbols-outlined">
@@ -290,16 +259,14 @@
                     <h3>Add remaiders</h3>
                 </div>
             </div>
-
-
+    
+    
         </div>
-        <!-- fim Sidebar direito-->
-
-
 
     </div>
 
-    <script src="./js/users.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/usuario.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>

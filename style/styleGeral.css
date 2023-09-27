@@ -204,8 +204,8 @@ b{
         }
     }
 
-    aside .logo {
-        margin-left: 1rem;
+    .logo {
+        margin-left: 0.3rem;
     }
     aside .sidebar {
         height: 84vh;
@@ -226,11 +226,6 @@ b{
 
     aside .sidebar a:last-child {
         position: absolute;
-    }
-
-    aside .toggle .close {
-        display: inline-block;
-        cursor: pointer;
     }
 
     main {

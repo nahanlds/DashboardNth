@@ -1,9 +1,10 @@
 
 aside {
     height: 100vh;
+    display: block;
 }
 
-aside .toggle {
+.toggle {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,23 +12,23 @@ aside .toggle {
     gap: 0.8rem;
 }
 
-aside .toggle .logo {
+.logo {
     display: flex;
     gap: 0.5rem;
 }
 
-aside .toggle .logo img {
+.logo img {
     width: 2.5rem;
     height: 2.5rem;
 }
 
 
-aside .toggle .close {
+.close {
     padding-right: 1rem;
     display: none;
 }
 
-aside .sidebar {
+.sidebar {
     display: flex;
     flex-direction: column;
     background-color: var(--color-white);
@@ -39,11 +40,11 @@ aside .sidebar {
     transition: all 0.3s ease;
 }
 
-aside .sidebar:hover {
+.sidebar:hover {
     box-shadow: none;
 }
 
-aside .sidebar a {
+.sidebar a {
     display: flex;
     align-items: center;
     color: var(--color-info-dark);
@@ -54,40 +55,46 @@ aside .sidebar a {
     transition: all 0.3s ease;
 }
 
-aside .sidebar a span {
+.sidebar a span {
     font-size: 1.6rem;
     transition: all 0.3s ease;
 }
 
-aside .sidebar a:last-child{
+.sidebar a:last-child{
     position: absolute;
     bottom: 2rem;
     width: 100%;
 }
 
-aside .sidebar a.ativo {
+.sidebar a.ativo {
     width: 100%;
     color: var(--color-primary);
     background-color: var(--color-light);
     margin-left: 0;
 }
 
-aside .sidebar a.ativo::before {
+.sidebar a.ativo::before {
     content: '';
     width: 6px;
     height: 18px;
     background-color: var(--color-primary);
 }
 
-aside .sidebar a.ativo span {
+.sidebar a.ativo span {
     color: var(--color-primary);
     margin-left: calc(1rem - 3px);
 }
 
-aside .sidebar a:hover {
+.sidebar a:hover {
     color: var(--color-primary);
 }
 
-aside .sidebar a:hover span {
+.sidebar a:hover span {
     margin-left: 0.6rem;
+}
+
+@media screen and (max-width:768px) {
+    .close {
+        display: block;
+    }
 }
