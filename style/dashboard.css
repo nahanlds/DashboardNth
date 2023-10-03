@@ -2,6 +2,12 @@
     border-radius: 0 20px 0 0;
 }
 
+.conteiner-dashboard {
+    display: grid;
+    width: 96%;
+    gap: 1rem;
+    grid-template-columns: 12rem auto 23rem;
+}
 
 .list {
     display: grid;
@@ -59,6 +65,9 @@
     position: relative;
 }
 @media screen and (max-width: 1200px) {
+    .conteiner-dashboard {
+        grid-template-columns: 7rem 35rem 27rem;
+    }
     .list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -73,9 +82,18 @@
 }
 
 @media screen and (max-width:768px) {
+    .conteiner-dashboard {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
 
     .list {
-        margin-top: 1rem;
+        margin: 1rem auto;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .funcionario {
+        width: 80%;
     }
 
     .resultados {
